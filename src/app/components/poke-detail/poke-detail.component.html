@@ -1,0 +1,24 @@
+<div class="container">
+  <mat-card class="card">
+  
+    <mat-card-header>
+      <img mat-card-avatar class="header-image" src="{{pokemonImg}}">
+      <mat-card-title>{{pokemon.name}}</mat-card-title>
+      <mat-card-subtitle>Nº {{pokemon.id}}</mat-card-subtitle>
+    </mat-card-header>
+  
+    <img mat-card-image src="{{pokemonImg}}" alt="pokemon" class="pokedetails">
+  
+    <mat-card-content>
+      <mat-chip-listbox aria-label="select a shirt size">
+        <mat-chip-option color="primary"> Type: {{pokemonType}} </mat-chip-option>
+        <mat-chip-option color="primary">Height:{{pokemon.height}}</mat-chip-option>
+        <mat-chip-option color="primary">Weight{{pokemon.weight}} </mat-chip-option>
+      </mat-chip-listbox>
+
+
+    </mat-card-content>
+  
+  </mat-card>
+
+</div>

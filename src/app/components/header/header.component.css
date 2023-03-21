@@ -1,0 +1,12 @@
+header{
+    margin-bottom: 50px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
